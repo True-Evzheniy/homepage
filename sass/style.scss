@@ -566,15 +566,15 @@
 
 #switch-1:checked ~	.slider__inner{
 	margin-left:0;
-	transition: 1s;
+	transition: 0.3s;
 }
 #switch-2:checked ~	.slider__inner{
 	margin-left:-100%;
-	transition: 1s;
+	transition: 0.3s;
 }
 #switch-3:checked ~	.slider__inner{
 	margin-left:-200%;
-	transition: 1s;
+	transition: 0.3s;
 }
 
 #switch-1:checked ~ .slider__toggle .slider__switch[for="switch-1"]{
@@ -772,6 +772,7 @@
 			background-image: url("../img/glass.png");
 			background-repeat: no-repeat;
 			background-position: center center;
+			background-size: cover;
 			z-index: 1000;
 			}
 
